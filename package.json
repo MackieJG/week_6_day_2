@@ -1,0 +1,17 @@
+{
+  "name": "day_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "five": "^0.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
