@@ -12,7 +12,17 @@ Decorator.prototype.totalVolume = function(){
         result += paint.volume;
     };
     return result;
-    
 };
+Decorator.prototype.enoughPaint= function(volume, area){
+    if (volume >= area) {
+        return true
+    } else {
+        return false
+    }
+};
+Decorator.prototype.paintRoom = function(room){
+    return room.painted = true; 
+}
+
 
 module.exports = Decorator
